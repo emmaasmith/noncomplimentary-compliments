@@ -33,7 +33,7 @@ STRIPE_WEBHOOK_SECRET=whsec_example_key
 ```
 Save the `.env` file.
 
-As you create new payments ([Step 5, Run card tests](https://github.com/emmaasmith/noncomplimentary-compliments#4-run-card-tests)), you should see events logged in the console where the CLI is running.
+As you create new payments ([Step 5, Run card tests](https://github.com/emmaasmith/noncomplimentary-compliments#5-run-card-tests)), you should see events logged in the console where the CLI is running.
 
 Stripe's documentation is [here](https://stripe.com/docs/webhooks/test). If you'd like to create a live webhook endpoint, follow Stripe's docs [here](https://stripe.com/docs/webhooks/setup#configure-webhook-settings). 
 
