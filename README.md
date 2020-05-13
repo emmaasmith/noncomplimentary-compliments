@@ -16,7 +16,7 @@ Open this new `.env` and fill in your Stripe API keys [available here](https://s
 REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_example_key
 STRIPE_SECRET_KEY=sk_example_key
 ```
-If you would like to test webhooks (used to populate our log files), then follow the setup instructions below in step [6. Test the webhook integration](https://github.com/emmaasmith/stripe#6-test-the-webhook-integration). Stripe's documentation is [here](https://stripe.com/docs/webhooks/test). Once you've installed and linked the Stripe CLI, fill your webhook endpoint's secret into `.env`:
+If you would like to test webhooks (used to populate our log files), then follow the setup instructions below in step [6. Test the webhook integration](https://github.com/emmaasmith/noncomplimentary-compliments#6-test-the-webhook-integration). Stripe's documentation is [here](https://stripe.com/docs/webhooks/test). Once you've installed and linked the Stripe CLI, fill your webhook endpoint's secret into `.env`:
 ```
 # Webhook key
 STRIPE_WEBHOOK_SECRET=whsec_example_key
@@ -66,6 +66,6 @@ stripe listen --forward-to localhost:4242/webhook
 ```
 *Note: Ensure the webhook secret key printed to the console matches the `STRIPE_WEBHOOK_SECRET` in your .env file.*  
 
-As you create new payments (step [4. Run card tests](https://github.com/emmaasmith/stripe#4-run-card-tests)), you should see webhook events logged in the console where the CLI is running.
+As you create new payments (step [4. Run card tests](https://github.com/emmaasmith/noncomplimentary-compliments#4-run-card-tests)), you should see webhook events logged in the console where the CLI is running.
 
 If you'd like to create a live webhook endpoint, follow Stripe's docs [here](https://stripe.com/docs/webhooks/setup#configure-webhook-settings). 
