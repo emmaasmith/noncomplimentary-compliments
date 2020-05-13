@@ -67,6 +67,8 @@ customer: Customer ID, format is cus_...
 receipt_email: Email entered
 payment_method: Payment method ID, format is pm_...
 ```  
-A second log, `failedPayments.csv`, appends a row for each failed payment with no dedpuing. Note: a configured webhook is required for these logs.  
+A second log, `failedPayments.csv`, appends a row for each failed payment with no dedpuing. 
+
+*Note: a configured webhook is required to test these logs.*  
 
 In addition, you can view payments on your [Stripe dashboard](https://dashboard.stripe.com/test/payments).  
