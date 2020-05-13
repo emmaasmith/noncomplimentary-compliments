@@ -35,11 +35,10 @@ Your terminal should automatically open [http://localhost:3000](http://localhost
 In the client, run test cases using test cards to purchase. Email address is mandatory - how else would you receive your compliment?
 
 Below are card numbers to test common flows:  
-```
-Authentication not required: Use card 4242 4242 4242 4242 with any CVC + a future expiration date.
-Authentication required: Use card 4000 0025 0000 3155 with any CVC + a future expiration date.
-Card declines codes: Use card 4000 0000 0000 9995 with any CVC + a future expiration date.  
-```
+* *Authentication not required:* Use card `4242 4242 4242 4242` with any CVC + a future expiration date.
+* *Authentication required:* Use card `4000 0025 0000 3155` with any CVC + a future expiration date.
+* *Card declines codes:* Use card `4000 0000 0000 9995` with any CVC + a future expiration date.  
+
 For a full list of test cases, visit [Stripe's testing page](https://stripe.com/docs/testing).
 
 #### 5. Confirm log of successful payments  
